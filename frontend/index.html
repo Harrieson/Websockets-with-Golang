@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websockets</title>
+</head>
+<body>
+    <div class="enter">
+        <h1>AMazing chat application</h1>
+        <h3 id="chat-header">Currently in chat: general</h3>
+        <form action="" id="chatroom-selection">
+            <label for="chatroom">
+                Chatroom:
+            </label>
+            <input type="text" id="chatroom" name="chatroom" > <br> <br>
+            <input type="submit" value="change chatroom">
+        </form>
+        <br>
+        <br>
+
+        <textarea name="chatmessages" id="chatmessages" class="messagearea" cols="50" rows="4" readonly placeholder="Welcome to chatroom" ></textarea>
+        <br>
+        <form action="" id="chatroom-message">
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message"> <br><br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
